@@ -8,6 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class SearchempComponent implements OnInit {
 
   constructor() { }
+  empCode=""
+
+  readValue=()=>{
+    let data={
+      "empCode":this.empCode
+    }
+    console .log(data)
+  }
 
   ngOnInit(): void {
   }
